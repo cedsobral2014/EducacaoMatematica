@@ -1,0 +1,223 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="pt" lang="pt">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<title>EDUCAÇÃO MATEMÁTICA</title>
+	<link href="css/impressao.css" type="text/css" rel="stylesheet" media="print" />
+	<link href="css/grid.css" type="text/css" rel="stylesheet" media="screen" />
+	<link href="css/vtip.css" type="text/css" rel="stylesheet" media="screen" />
+	<link href="js/fancybox/jquery.fancybox-1.3.4.css" type="text/css" rel="stylesheet"  media="screen" />
+	<link href="css/smoothness/jquery-ui-1.8.11.custom.css" type="text/css" rel="stylesheet" media="screen" />
+	<link href="css/layout.css" type="text/css" rel="stylesheet" media="screen" />
+	<link href="css/tema.css" type="text/css" rel="stylesheet" media="screen" />
+    <link href="css/formularios.css" type="text/css" rel="stylesheet" media="screen" />
+	
+	<script type="text/javascript" src="js/jquery-1.6.1.min.js"></script>	
+	<script type="text/javascript" src="js/jquery-ui-1.8.12.custom.min.js"></script>
+	<script type="text/javascript" src="js/fancybox/jquery.fancybox-1.3.4.js"></script>
+	<script type="text/javascript" src="js/jquery.scrollTo-min.js"></script>
+	<script type="text/javascript" src="js/jquery.serialScroll-min.js"></script>
+	<script type="text/javascript" src="js/jquery.coda-slider-2.0.js"></script>
+	<script type="text/javascript" src="js/ufc.js"></script>
+	<script type="text/javascript" src="js/vtip.js"></script>
+	<script type="text/javascript" src="js/fluidtextresizer.js"></script>
+	<script type="text/javascript" src="js/jquery.simpleSlide_min.js"></script>
+	<script type="text/javascript" src="js/jquery.jplayer.min.js"></script>
+	<script type="text/javascript" src="js/jquery.jcarousel.js"></script>
+    <script type="text/javascript" src="js/jquery.jcarousel.autoscroll.js"></script>
+    <script type="text/javascript" src="flash/jwplayer/jwplayer.html5.js"></script>
+	<script type="text/javascript" src="flash/jwplayer/jwplayer.js"></script>
+    <script src="js/jcanvas.min.js" language="javascript"></script>
+	<script src="js/criarCanvas.js" language="javascript"></script>
+    <script src="js/animarBaloes.js" language="javascript"></script>
+    <script src="js/f1.js" language="javascript"></script>
+	<script type="text/javascript" charset="utf-8">
+		$(document).ready(function(){
+			
+		});
+		var redimensionarFonte = new fluidtextresizer({
+			controlsdiv: "sizecontroldiv", //id of special div containing your resize controls. Enter "" if not defined
+			targets: ["p", "li", "h1", "h2", "h3", "tr",".slideshow"], //.generic p, li, .quadro p, h2, h3 - target elements to resize text within: ["selector1", "selector2", etc]
+			levels: 1, //number of levels users can magnify (or shrink) text
+			persist: "none", //enter "session" or "none"
+			animate: 200 //animation duration of text resize. Enter 0 to disable
+		})
+	</script>
+	<style type="text/css" media="screen">
+		
+	</style>
+	<!--[if IE 7]>
+	<style type="text/css" media="screen">
+		#nav > li > ul > li {
+			margin-left:-15px;
+			width:230px;
+		}
+		.audio-player-toolbar > button {
+			float:left;
+			display:block;
+			background-color:white;
+		}
+		.audio-progressbar {
+			width:100px !important;
+			display:block;
+			float:left;
+			margin-left:5px;
+			margin-top:2px;
+		}
+	</style>
+	<![endif]-->
+</head>
+<body>
+	<div class="linha" id="cabecalho">
+		<div class="titulos">
+			<h1 style="font-style: italic;">CURSO DE APERFEIÇOAMENTO EM EDUCAÇÃO MATEMÁTICA</h1>
+			<h2>Aula 06: Introdução à geometria dinâmica</h2>
+			
+		</div>
+	</div>
+	<div class="linha" id="navegacao">
+		<ul id="nav" class="coluna lateral">
+			<li id="nav-menu"><a href="#"><img src="layout/menu-menu.png" width="20" height="20" alt="Menu" /></a>
+				<ul>
+					<li><a href="orientacoes.html">Orientações de Navegação</a></li>
+					<li><a href="02.html">Tópico 01: A tecnologia ajudando o processo de ensino aprendizagem.</a></li>
+                    <li><a href="03.html">Tópico 02: A construção do conhecimento matemático através da geometria</a></li>
+                    <li><a href="04.html">Tópico 03: Um breve histórico da geometria dinâmica</a></li>
+                    <li><a href="05.html">Atividades</a></li>
+                    <li><a href="04.html">Bibliografia</a></li>
+
+				</ul>
+			</li>
+			<li><a href="02.html"><img src="layout/menu-anterior.png" width="20" height="20" alt="Tópico Anterior" title="Tópico Anterior" class="mouseover"/></a></li>
+			<li><a href="04.html"><img src="layout/menu-proximo.png" width="20" height="20" alt="Próximo Tópico" title="Próximo Tópico" class="mouseover"/></a></li>
+			<li><a href="javascript:redimensionarFonte.setFontLevel('smaller')"><img src="layout/menu-fonte_reduzir.png" width="20" height="20" alt="Reduzir Fonte" title="Reduzir Fonte" class="mouseover" /></a></li>
+			<li><a href="javascript:redimensionarFonte.setFontLevel('bigger')"><img src="layout/menu-fonte_aumentar.png" width="20" height="20" alt="Aumentar Fonte" title="Aumentar Fonte" class="mouseover" /></a></li>
+			<li><a href="#" id="menu_constrate"><img src="layout/menu-contraste.png" width="20" height="20" alt="Contraste" title="Contraste" class="mouseover" /></a></li>
+
+			<li><a href="pdf/01.pdf" target="_blank"><img src="layout/menu-impressao.png" width="20" height="20" alt="Versão para Impressão" title="Versão para Impressão" class="mouseover" /></a></li>
+		</ul>
+		<div id="topico" class="coluna principal">
+			<h2>Tópico 02: A construção do conhecimento matemático através da geometria</h2>
+		</div>
+	</div>
+	
+    <br/>
+    
+    
+    
+    <div class="linha">
+    
+		<div class="coluna lateral">		
+			
+			<br/>		
+		</div>
+			<div class="coluna principal ">
+		
+			<p align="justify"><big>O ensino da geometria é um desafio tanto para o aluno quanto para o professor. Uma grande parte dos alunos chega ao ensino médio com muitas dificuldades, devido a diversos problemas de ensino no Brasil nas séries finais do ensino fundamental.</big><p></p>
+		
+		 	<img src="imagens/02/imagem3.png" />
+			<p align="justify"><big>Tal desafio também perpassa pelo professor, que dificilmente tem a possibilidade (ou tempo) de participar de formações e capacitações na área da matemática computacional e acaba ensinando a geometria como o professor ilustrado na figura acima. São muitos os fatores que tornam o ensino da geometria no ensino média tão defasada.</big><p></p> 
+			<br/>		
+    		<br/>
+    		<font color = "red">EFEITO CÁPSULA DINÂMICA</p>
+			INÍCIO DO EFEITO:</p></font> 
+			<p align="justify"><big>PAVANELLO (1989, p. 76) afirma que “Com a matemática moderna, as tentativas de ensinar geometria sob o enfoque das transformações e dos planos vetoriais respeitando as orientações do movimento, fizeram com que, a partir da década de 1960, o ensino da geometria fosse relegado a um segundo plano. Dessa forma, como muitos professores não dominavam esses assuntos, passaram a trabalhar preferencialmente a álgebra, o que pode ser constatado pelo fato de que os livros didáticos passaram a abordar a geometria nos capítulos finais, característica essa que permaneceu até a década de 1990.”</big></p> </p>
+			<font color = "red">FINAL DO EFEITO</font>
+    		<br/>		
+    		<br/>		
+    		<p align="justify"><big>A ênfase maior no ensino da álgebra pode ser bem exemplificada no fato de que quase todo aluno chega ao ensino médio sabendo perfeitamente encontrar as raízes de uma equação do 2º grau através de uma fórmula metódica, mas não sabe sequer o valor da soma dos ângulos internos de um triângulo ou então calcular a área de um trapézio.</big></p>
+    
+		</div>
+	</div>
+    
+    <br/>	
+    <br/>	
+    
+    <div class="linha">
+		<div class="coluna lateral">			
+			<img src="imagens/02/pensar.png" width="100" height="110"/>		
+		</div>
+		<div class="coluna principal quadro ">
+			<p><big>Fazendo uma breve análise do ensino da geometria em sala de aula, conseguimos perceber que ele se dá de maneira tradicional, não dando importância ao ensino que tem como objetivo o desenvolvimento da aprendizagem significativa, e isso acaba levando desinteresse ao aluno em aprender esse campo matemático em função da sua importância.</big></p>
+			
+		</div>
+		</div>
+    <br/>	
+    <br/>	
+    		
+    		
+    <div class="linha">
+    
+		<div class="coluna lateral">		
+			
+			<br/>		
+		</div>
+			<div class="coluna principal ">
+				
+		 	<img src="imagens/02/imagem4.png" />
+		 	<h4 align="center">Imagem:
+				http://ryotiras.com/wp-content/uploads/2010/04/ensino.jpg</h4>
+			
+			<p align="justify"><big>Tal desafio também perpassa pelo professor, que dificilmente tem a possibilidade (ou tempo) de participar de formações e capacitações na área da matemática computacional e acaba ensinando a geometria como o professor ilustrado na figura acima. São muitos os fatores que tornam o ensino da geometria no ensino média tão defasada.</big><p></p> 
+			<br/>		
+    		<br/>
+    		<font color = "red">EFEITO CARTA</p>
+			INÍCIO DO EFEITO:</p></font> 
+			<p align="justify"><big>Pavanello (1989, p. 11) aponta alguns motivos para a decadência no ensino da geometria nas escolas, ela cita o rigor, a visualização e a “subordinação da geometria à álgebra”, como alguns problemas referentes ao ensino desse campo matemático. A preocupação com o rigor no ensino da geometria foi amplamente difundido no século XIX, num momento em que os matemáticos estavam preocupados em reparar os problemas referentes à falta desse no tratamento ao cálculo diferencial, o qual havia se desenvolvido de forma espetacular no século XVIII com Newton e Leibniz, atrelada as discussões em torno das geometrias não euclidianas. ”</big></p> </p>
+			<font color = "red">FINAL DO EFEITO</font>
+    		
+    
+		</div>
+	</div>		
+    		
+    		
+    <br/>	
+    <br/>	
+    		
+    <div class="linha">
+		<div class="coluna lateral">	
+		 <br/>
+		 </div>
+    	<div class="coluna principal ">
+				<p align="justify"><big>Desse tempo até meados da década de 1990 o ensino da geometria foi sempre metódico e tradicional até a chegada da tecnologia, onde o ensino da geometria passou por grandes reformulações com a ajuda dos softwares dedicados a esse tópico de ensino.</big><p></p> 
+		
+				</p>
+		</div>
+		
+	</div>
+    <br/>	
+    <br/>	
+    
+    <div class="linha">
+		<div class="coluna lateral">			
+			<img src="imagens/02/professora.png"/>		
+		</div>
+		<div class="coluna principal quadro ">
+			<p><big>Não vou me prolongar muito aqui pois o assunto de ensino de geometria já foi bem abordado na aula 2 mas com o que vimos nesse tópico, desde o surgimento do ensino da geometria até hoje muita coisa mudou. A chegada da tecnologia colaborou com o entendimento da geometria e o desprendimento do seu ensino do modelo tradicional.</big></p>
+			
+		</div>
+		</div>
+    
+     
+  
+  
+	<div class="linha">
+		<div id="rodape">
+			<ul id="rodape_navegacao">
+				<li><a href="#topo" title="Retornar ao topo da página">Topo</a></li>
+				<li><a href="02.html" title="Ir para o Tópico Anterior">Tópico Anterior</a></li>
+				<li><a href="04.html" title="Ir para o Próximo Tópico">Próximo Tópico</a></li>
+
+				<li><a href="pdf/01.pdf" title="Versão para Impressão" target="_blank">Versão para Impressão</a></li>
+			</ul>
+			<a href="http://www.virtual.ufc.br" target="_blank" id="logo-ufcv" class="logo"><img src="layout/logo-ufc_virtual-color.png" alt="Logo UFC" width="40" height="40" /></a>
+			<a href="http://www.ufc.br" target="_blank" id="logo-ufc" class="logo"><img src="layout/logo-ufc-color.png" alt="Logo UFC Virtual" width="35" height="45" /></a>
+			<p>Responsável: </p>
+			<p>Centro de Educação a Distância do Ceará - CED</p>
+		</div>
+	</div>
+<script type="text/javascript">
+swfobject.registerObject("FlashID");
+    </script>
+</body>
+</html>

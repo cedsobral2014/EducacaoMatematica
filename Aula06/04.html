@@ -1,0 +1,235 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="pt" lang="pt">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<title>EDUCAÇÃO MATEMÁTICA</title>
+	<link href="css/impressao.css" type="text/css" rel="stylesheet" media="print" />
+	<link href="css/grid.css" type="text/css" rel="stylesheet" media="screen" />
+	<link href="css/vtip.css" type="text/css" rel="stylesheet" media="screen" />
+	<link href="js/fancybox/jquery.fancybox-1.3.4.css" type="text/css" rel="stylesheet"  media="screen" />
+	<link href="css/smoothness/jquery-ui-1.8.11.custom.css" type="text/css" rel="stylesheet" media="screen" />
+	<link href="css/layout.css" type="text/css" rel="stylesheet" media="screen" />
+	<link href="css/tema.css" type="text/css" rel="stylesheet" media="screen" />
+    <link href="css/formularios.css" type="text/css" rel="stylesheet" media="screen" />
+	
+	<script type="text/javascript" src="js/jquery-1.6.1.min.js"></script>	
+	<script type="text/javascript" src="js/jquery-ui-1.8.12.custom.min.js"></script>
+	<script type="text/javascript" src="js/fancybox/jquery.fancybox-1.3.4.js"></script>
+	<script type="text/javascript" src="js/jquery.scrollTo-min.js"></script>
+	<script type="text/javascript" src="js/jquery.serialScroll-min.js"></script>
+	<script type="text/javascript" src="js/jquery.coda-slider-2.0.js"></script>
+	<script type="text/javascript" src="js/ufc.js"></script>
+	<script type="text/javascript" src="js/vtip.js"></script>
+	<script type="text/javascript" src="js/fluidtextresizer.js"></script>
+	<script type="text/javascript" src="js/jquery.simpleSlide_min.js"></script>
+	<script type="text/javascript" src="js/jquery.jplayer.min.js"></script>
+	<script type="text/javascript" src="js/jquery.jcarousel.js"></script>
+    <script type="text/javascript" src="js/jquery.jcarousel.autoscroll.js"></script>
+    <script type="text/javascript" src="flash/jwplayer/jwplayer.html5.js"></script>
+	<script type="text/javascript" src="flash/jwplayer/jwplayer.js"></script>
+    <script src="js/jcanvas.min.js" language="javascript"></script>
+	<script src="js/criarCanvas.js" language="javascript"></script>
+    <script src="js/animarBaloes.js" language="javascript"></script>
+    <script src="js/f1.js" language="javascript"></script>
+	<script type="text/javascript" charset="utf-8">
+	
+		$(document).ready(function(){
+			
+		});
+		var redimensionarFonte = new fluidtextresizer({
+			controlsdiv: "sizecontroldiv", //id of special div containing your resize controls. Enter "" if not defined
+			targets: ["p", "li", "h1", "h2", "h3", "tr",".slideshow"], //.generic p, li, .quadro p, h2, h3 - target elements to resize text within: ["selector1", "selector2", etc]
+			levels: 1, //number of levels users can magnify (or shrink) text
+			persist: "none", //enter "session" or "none"
+			animate: 200 //animation duration of text resize. Enter 0 to disable
+		})
+	</script>
+	<style type="text/css" media="screen">
+		
+	</style>
+	<!--[if IE 7]>
+	<style type="text/css" media="screen">
+		#nav > li > ul > li {
+			margin-left:-15px;
+			width:230px;
+		}
+		.audio-player-toolbar > button {
+			float:left;
+			display:block;
+			background-color:white;
+		}
+		.audio-progressbar {
+			width:100px !important;
+			display:block;
+			float:left;
+			margin-left:5px;
+			margin-top:2px;
+		}
+	</style>
+	<![endif]-->
+</head>
+<body>
+	<div class="linha" id="cabecalho">
+		<div class="titulos">
+			<h1 style="font-style: italic;">CURSO DE APERFEIÇOAMENTO EM EDUCAÇÃO MATEMÁTICA</h1>
+			<h2>Aula 06: Introdução à geometria dinâmica</h2>
+			
+		</div>
+	</div>
+	<div class="linha" id="navegacao">
+		<ul id="nav" class="coluna lateral">
+			<li id="nav-menu"><a href="#"><img src="layout/menu-menu.png" width="20" height="20" alt="Menu" /></a>
+				<ul>
+					<li><a href="orientacoes.html">Orientações de Navegação</a></li>
+					<li><a href="02.html">Tópico 01: A tecnologia ajudando o processo de ensino aprendizagem.</a></li>
+                    <li><a href="03.html">Tópico 02: A construção do conhecimento matemático através da geometria</a></li>
+                    <li><a href="04.html">Tópico 03: Um breve histórico da geometria dinâmica</a></li>
+                    <li><a href="05.html">Atividades</a></li>
+                    <li><a href="04.html">Bibliografia</a></li>
+
+				</ul>
+			</li>
+			<li><a href="03.html"><img src="layout/menu-anterior.png" width="20" height="20" alt="Tópico Anterior" title="Tópico Anterior" class="mouseover"/></a></li>
+			<li><a href="05.html"><img src="layout/menu-proximo.png" width="20" height="20" alt="Próximo Tópico" title="Próximo Tópico" class="mouseover"/></a></li>
+			<li><a href="javascript:redimensionarFonte.setFontLevel('smaller')"><img src="layout/menu-fonte_reduzir.png" width="20" height="20" alt="Reduzir Fonte" title="Reduzir Fonte" class="mouseover" /></a></li>
+			<li><a href="javascript:redimensionarFonte.setFontLevel('bigger')"><img src="layout/menu-fonte_aumentar.png" width="20" height="20" alt="Aumentar Fonte" title="Aumentar Fonte" class="mouseover" /></a></li>
+			<li><a href="#" id="menu_constrate"><img src="layout/menu-contraste.png" width="20" height="20" alt="Contraste" title="Contraste" class="mouseover" /></a></li>
+
+			<li><a href="pdf/01.pdf" target="_blank"><img src="layout/menu-impressao.png" width="20" height="20" alt="Versão para Impressão" title="Versão para Impressão" class="mouseover" /></a></li>
+		</ul>
+		<div id="topico" class="coluna principal">
+			<h2>Tópico 03: Um breve histórico da geometria dinâmica</h2>
+		</div>
+	</div>
+	
+    
+    
+    
+    <div class="linha">
+    
+		<div class="coluna lateral">		
+			
+			<br/>		
+		</div>
+			<div class="coluna principal ">
+				
+		 	<img src="imagens/03/imagem5.png" />
+		 	<h4 align="center">Imagem:
+				http://ftp.multimeios.ufc.br/~geomeios/geogebra/imagem/geogebra.jpg</h4>
+			
+			<br/>		
+    		<br/>
+			
+			<img src="imagens/03/imagem6.png" />
+		 	<h4 align="center">Imagem:
+				http://3.bp.blogspot.com/_2vpsfJCPIok/TBRy-IG6OXI/AAAAAAAAAkA/Gen0aEA7UPM/s1600/cabri3d.png</h4>
+			
+			<br/>		
+    		<br/>
+							
+			<p align="justify"><big>Sabemos que inovações na matemática escolar são poucas, mas quanto ao ensino da matemática, com uma importante ajuda da tecnologia, as inovações tem sido cada vez mais frequentes. No ensino da geometria fica mais evidente essa transformação no modo de ensinar, pois anos atrás a geometria era ensinada quase que totalmente de maneira abstrata, impossibilitando ao aluno compreender integralmente a ideia abordada na geometria.</big><p></p> 
+			
+			<br/>		
+    		<br/>
+    		</div>
+	</div>	
+    		
+    	<div class="linha">
+				<div class="coluna lateral">			
+					<img src="imagens/03/filme.png" width="100" height="110"/>		
+				</div>
+				
+				<div class="coluna principal quadro ">
+					<iframe width="420" height="315" src="https://www.youtube.com/embed/NP2KZ07ykSo" frameborder="0" allowfullscreen></iframe>
+					<p><big><a href="https://www.youtube.com/watch?v=NP2KZ07ykSo"target="_blank">https://www.youtube.com/watch?v=NP2KZ07ykSo</a></big></p>
+					
+				</div>
+				
+				
+		</div>
+    <br/>	
+    <br/>	
+    		<div class="linha">
+				<div class="coluna lateral">			
+					<br/>
+				</div>
+				<div class="coluna principal ">
+	    		<font color = "red">EFEITO TEXTO RETRÁTIL</p>
+				INÍCIO DO EFEITO:</p></font> 
+				<p align="justify"><big>Com a chegada da tecnologia esse quadro pôde ser mudado. Aulas mais ricas com ajuda de vídeo aulas, interação na internet através de fóruns e sites educativos e softwares criados especificamente para auxiliar o entendimento da geometria não apenas plana mas como também a espacial. Se antes a geometria era um dos tópicos menos abordados no ensino da matemática, hoje a geometria é o tópico que tem experimentado as maiores e mais significativas transformações com a utilização de softwares específicos para o processo de ensino aprendizagem.
+	
+										O uso desses softwares ajuda na Visualização Geométrica, que consiste na parte intuitiva da geometria, onde o aluno não aprende apenas o que ele está vendo, mas como também consegue enxergar mais adiante interpretando, inferindo e formulando. Em educação matemática, visualizar é conceber ou formar uma imagem visual de algo que não se tem ante os olhos no momento.”</big></p>
+				
+				<br/>		
+	    		<br/>
+				
+				<img src="imagens/03/imagem7.png" />
+			 	<h4 align="center">Imagem:
+					http://c8.quickcachr.fotos.sapo.pt/i/B5915a5e7/16774297_KOalW.jpeg</h4>
+				
+				<br/>		
+	    		<br/>
+				
+				<p align="justify"><big>Com o avanço na tecnologia o ensino de geometria vem sendo melhor explorado, dando maior autonomia ao aluno no que diz respeito ao criar e modificar figuras tornando assim possível um aprendizado mais significativo.</big></p>
+				<font color = "red">FINAL DO EFEITO</font>
+    			</div>
+		</div>
+   		
+   		<br/>		
+    	<br/>
+    	  		
+    	<div class="linha">
+				<div class="coluna lateral">			
+					<img src="imagens/03/livro.png" width="100" height="110"/>		
+				</div>
+				<div class="coluna principal quadro ">
+					<p align="justify"><big>De acordo com o artigo da SBEM (2004) “A Geometria Dinâmica vem se aprimorando cada vez mais através das implementações computacionais criadas, apesar de não tão recente a ideia de figuras dinâmicas. As características principaisdos programas de geometria dinâmica é a possibilidade de manipular dinamicamente e de animar as construções geométricas e os gráficos, trazendo nova linguagem de comunicação entre o aluno, o professor e os conceitos de matemática, auxiliando efetivamente a atingir o objetivo principal do ensino que é a construção do conhecimento e desenvolvimento do raciocínio.”<br/><a href="http://www.sbem.com.br/files/viii/pdf/06/1MC75475863415.pdf"target="_blank">http://www.sbem.com.br/files/viii/pdf/06/1MC75475863415.pdf</a></p></big></p>
+				</div>
+		</div>
+   		
+   		<br/>	
+    	<br/>	
+			
+    	<div class="linha">
+				<div class="coluna lateral">			
+					<br/>
+				</div>
+				<div class="coluna principal ">
+	    		<p align="justify"><big>O uso da tecnologia em favor da geometria enriquece tanto o aprendizado do aluno quanto a didática do professor. Em um mundo onde a tecnologia está em praticamente tudo, a inserção da geometria nesse meio vem mostrar que apesar da teoria matemática ensinada ser de séculos atrás, a prática está cada vez mais atual, facilitada por diversos softwares e podendo ser utilizado não apenas em computadores mas também em tablets e smartphones.</big></p>
+							
+				<br/>		
+	    		<br/>	
+   				<img src="imagens/03/imagem8.png" />
+			 	<h4 align="center">Imagem:
+					http://www.geogebra.org/download
+    			<br/>		
+	    		<br/>
+	    		<font color = "red">EFEITO CORREIO ELETRÔNICO 02</p>
+				INÍCIO DO EFEITO:</p></font> 
+				<p align="justify"><big>De acordo com SOARES e ALVES (2003) “Diversos estudiosos constataram que a inserção de tecnologia informática contribui para a expansão das formas habituais de utilização de recursos materiais no trabalho dos professores em sala de aula. Mesmo que o computador seja inicialmente um problema a mais na vida do professor, ele acaba criando novas possibilidades para o seu desenvolvimento como profissional. Além disso, o bom uso deste recurso em sala de aula tem trazido uma motivação a mais para os alunos.” </big></p>	
+				<font color = "red">FINAL DO EFEITO</font>
+    			</div>
+		</div>
+	
+	
+	
+	<div class="linha">
+		<div id="rodape">
+			<ul id="rodape_navegacao">
+				<li><a href="#topo" title="Retornar ao topo da página">Topo</a></li>
+				<li><a href="03.html" title="Ir para o Tópico Anterior">Tópico Anterior</a></li>
+				<li><a href="05.html" title="Ir para o Próximo Tópico">Próximo Tópico</a></li>
+
+				<li><a href="pdf/01.pdf" title="Versão para Impressão" target="_blank">Versão para Impressão</a></li>
+			</ul>
+			<a href="http://www.virtual.ufc.br" target="_blank" id="logo-ufcv" class="logo"><img src="layout/logo-ufc_virtual-color.png" alt="Logo UFC" width="40" height="40" /></a>
+			<a href="http://www.ufc.br" target="_blank" id="logo-ufc" class="logo"><img src="layout/logo-ufc-color.png" alt="Logo UFC Virtual" width="35" height="45" /></a>
+			<p>Responsável: </p>
+			<p>Centro de Educação a Distância do Ceará - CED</p>
+		</div>
+	</div>
+<script type="text/javascript">
+swfobject.registerObject("FlashID");
+    </script>
+</body>
+</html>
